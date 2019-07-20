@@ -38,12 +38,6 @@ class AppCoordinator: Coordinator {
             })
             .disposed(by: self.disposeBag)
         
-        signInViewModel.didFailSignIn
-            .subscribe(onNext: { error in
-                print("Failed: \(error)")
-            })
-            .disposed(by: self.disposeBag)
-        
         self.navigationController.viewControllers = [signInViewController]
     }
 }
