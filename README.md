@@ -1,6 +1,6 @@
 ## Swift-MVVMC-SimpleExample
 This repository contains code samples from this article:  
-[MVVM + Coordinators + RxSwift based on sample iOS application with authentication](https://wojciechkulik.pl/ios/mvvm-+-coordinators-+-rxswift-based-on-sample-ios-application-with-authentication)  
+[MVVM + Coordinators + RxSwift based on sample iOS application with authentication](https://wojciechkulik.pl/ios/mvvm-coordinators-rxswift-and-sample-ios-application-with-authentication)  
 
 For more advanced example please check out this repository:  
 [Swift-MVVMC-Demo](https://github.com/wojciech-kulik/Swift-MVVMC-Demo)  
