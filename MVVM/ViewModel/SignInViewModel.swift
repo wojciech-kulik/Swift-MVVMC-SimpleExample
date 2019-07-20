@@ -1,4 +1,4 @@
-protocol SignInDelegate {
+protocol SignInDelegate: AnyObject {
     func didSignIn()
     func didFailSignIn(message: String)
 }
@@ -6,7 +6,7 @@ protocol SignInDelegate {
 class SignInViewModel {
     
     private let authentication: Authentication
-    var delegate: SignInDelegate?
+    weak var delegate: SignInDelegate?
     
     var emailAddress = ""
     var password = ""
