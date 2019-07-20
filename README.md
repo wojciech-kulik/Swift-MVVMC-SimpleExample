@@ -11,6 +11,7 @@ Project uses [CocoaPods](https://guides.cocoapods.org/using/getting-started.html
     sudo gem install cocoapods
     pod install
 
+Use `MVVMC.xcworkspace` to open project.  
 
 You can also check out my another demo with Redux architecture:
 - https://github.com/wojciech-kulik/ReSwiftDemo
